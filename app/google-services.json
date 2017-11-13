@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "288629879767",
+    "firebase_url": "https://androidpizza-74c2b.firebaseio.com",
+    "project_id": "androidpizza-74c2b",
+    "storage_bucket": "androidpizza-74c2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288629879767:android:d0aabfd744d3cb02",
+        "android_client_info": {
+          "package_name": "com.example.vpvu2.androidpizza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "288629879767-75eojii1r8qgh9v66javg25grtu8so5m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vpvu2.androidpizza",
+            "certificate_hash": "6da6ff96042422e7d661655f46c0f48833d39f98"
+          }
+        },
+        {
+          "client_id": "288629879767-8jgnqkgm34hm66hg3upqn0hm0otop297.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD11ohANO0oVurj09C8zDRF5i--w6F_29M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "288629879767-8jgnqkgm34hm66hg3upqn0hm0otop297.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
