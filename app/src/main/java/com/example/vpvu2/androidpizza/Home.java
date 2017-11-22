@@ -18,6 +18,7 @@ import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
 
+
 import com.example.vpvu2.androidpizza.Common.Common;
 import com.example.vpvu2.androidpizza.Interface.ItemClickListener;
 import com.example.vpvu2.androidpizza.Model.Category;
@@ -59,6 +60,14 @@ public class Home extends AppCompatActivity
             public void onClick(View view) {
                 Intent cartIntent = new Intent(Home.this,Cart.class);
                 startActivity(cartIntent);
+            }
+        });
+        FloatingActionButton listener = (FloatingActionButton) findViewById(R.id.listen);
+        listener.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent listenIntent = new Intent (Home.this, Listenner.class);
+                startActivity(listenIntent);
             }
         });
 

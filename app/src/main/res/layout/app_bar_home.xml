@@ -20,7 +20,8 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_home" />
+    <include layout="@layout/content_home"
+        android:id="@+id/include2" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
@@ -31,4 +32,14 @@
         android:backgroundTint="@android:color/white"
         app:srcCompat="@drawable/ic_shopping_cart_black_24dp" />
 
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/listen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:layout_margin="@dimen/fab_margin"
+        android:backgroundTint="@android:color/white"
+        app:layout_anchor="@+id/include2"
+        app:layout_anchorGravity="bottom|left"
+        app:srcCompat="@drawable/ic_mic_black_24dp" />
 </android.support.design.widget.CoordinatorLayout>
